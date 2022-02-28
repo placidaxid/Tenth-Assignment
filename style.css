@@ -1,0 +1,80 @@
+
+body{
+    background-color:whitesmoke;
+    width: 100%;
+}
+
+#img-div1 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+    
+}
+.main{
+    width: 100%;
+    background-color: snow;
+}
+#main{
+    width: 80%;
+    padding-left: 130px;
+   
+}
+.first{
+    background-color:snow;
+}
+.first img{
+    width: 10%;
+    padding-left: 45%;
+    text-align: center;
+}
+blockquote {
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+ .second{
+    margin: 10px;
+    align-items: center;
+}
+.second img{
+    width: 100px;
+}
+.second table{
+    padding-left: 350px;
+}
+
+.web{
+    text-align: left;
+    color: darkcyan;
+}
+
+.skills{
+    background-color: turquoise;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.wrapper{
+    
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapper img{
+    width: 400px;
+    height: 350px;
+    transition: all 1s;
+}
+
+.wrapper img:hover{
+    transform: scale(0.8);
+}
+
+.footer{
+    background-color: red;
+}
